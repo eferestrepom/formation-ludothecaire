@@ -1,0 +1,133 @@
+<?xml version="1.0" ?>
+<manifest identifier="OqIo2fY0EK5sZb8gK7UwDuLyAi9NZIQ4B0h6DGg2" version="1"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                      http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location> 
+  </metadata>
+  <organizations default="articulate_rise">
+      <organization identifier="articulate_rise">
+      <title>Formation ludothécaire - Module II : le cadre ludique et la posture du ludothécaire</title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title>Formation ludothécaire - Module II : le cadre ludique et la posture du ludothécaire</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormtype="sco" href="scormdriver/indexAPI.html">
+      <!-- SCORMDRIVER STUFF -->
+      <file href="scormdriver/indexAPI.html" />
+      <file href="scormdriver/preloadIntegrity.js" />
+      <file href="scormdriver/driverOptions.js" />
+      <file href="scormdriver/AICCComm.html" />
+      <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+      <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
+      <file href="scormdriver/auto-scripts/CourseExit.js" />
+      <file href="scormdriver/blank.html" />
+      <file href="scormdriver/goodbye.html" />
+      <file href="scormdriver/scormdriver.js" />
+      <file href="scormdriver/browsersniff.js" />
+
+      <!-- RUNTIME COMMON STUFF -->
+      <file href="scormcontent/index.html" />
+
+      
+        <file href="scormcontent/lib/lzwcompress.js"/>
+      
+
+      <!-- FRONTEND BUNDLE ASSETS -->
+      <file href="scormcontent/lib/rise/25ac0daf.js" />
+<file href="scormcontent/lib/rise/220a9314.css" />
+<file href="scormcontent/lib/rise/f776be4d.js" />
+<file href="scormcontent/lib/rise/23d726b2.css" />
+<file href="scormcontent/lib/rise/785f22de.js" />
+<file href="scormcontent/lib/rise/9aede266.ttf" />
+<file href="scormcontent/lib/rise/bff47411.woff" />
+<file href="scormcontent/lib/rise/4945883c.js" />
+<file href="scormcontent/lib/rise/8703e2fa.js" />
+<file href="scormcontent/lib/rise/734c8768.js" />
+<file href="scormcontent/lib/rise/6131d2be.js" />
+<file href="scormcontent/lib/rise/3125981b.js" />
+<file href="scormcontent/lib/rise/c1fffde4.js" />
+<file href="scormcontent/lib/rise/ea6c5713.js" />
+<file href="scormcontent/lib/rise/8b0c1d77.js" />
+<file href="scormcontent/lib/rise/e4e3b458.js" />
+<file href="scormcontent/lib/rise/64c13194.js" />
+<file href="scormcontent/lib/rise/0bced08b.js" />
+<file href="scormcontent/lib/rise/7af1aba0.js" />
+<file href="scormcontent/lib/rise/e138dbfd.js" />
+<file href="scormcontent/lib/rise/9e1e6a7f.js" />
+<file href="scormcontent/lib/rise/df64c07c.js" />
+<file href="scormcontent/lib/rise/8716f7be.js" />
+<file href="scormcontent/lib/rise/ee3f75fa.js" />
+<file href="scormcontent/lib/rise/669c3478.js" />
+<file href="scormcontent/lib/rise/ee649af8.js" />
+<file href="scormcontent/lib/learn_dist/entry.js" />
+<file href="scormcontent/lib/learn_dist/20fb5bfb.js" />
+<file href="scormcontent/lib/learn_dist/bc396e2e.css" />
+<file href="scormcontent/lib/learn_dist/5bc8c1a3.js" />
+<file href="scormcontent/lib/mondrian/entry.js" />
+<file href="scormcontent/lib/mondrian/651f6318.js" />
+<file href="scormcontent/lib/mondrian/afbb5ca8.js" />
+<file href="scormcontent/lib/mondrian/81b7fea8.js" />
+<file href="scormcontent/lib/mondrian/09e37aee.js" />
+<file href="scormcontent/lib/mondrian/196251cf.js" />
+<file href="scormcontent/lib/sandbox/sandbox.html" />
+<file href="scormcontent/lib/sandbox/c77685df.js" />
+<file href="scormcontent/lib/sandbox/4adfab46.css" />
+
+
+      <!-- RUNTIME CONTENT STUFF -->
+      <file href="scormcontent/lib/fonts/Poppins-BoldItalic.woff" />
+<file href="scormcontent/lib/fonts/Poppins-Bold.woff" />
+<file href="scormcontent/lib/fonts/Poppins-SemiBoldItalic.woff" />
+<file href="scormcontent/lib/fonts/Poppins-SemiBold.woff" />
+<file href="scormcontent/lib/fonts/Poppins-Italic.woff" />
+<file href="scormcontent/lib/fonts/Poppins-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lustria-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Light.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Italic.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Bold.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Black.woff" />
+<file href="scormcontent/assets/HOTwXC3CkNSZ8E3X.jpg" />
+<file href="scormcontent/assets/3lEBoDUkGVHyOPQV.jpg" />
+<file href="scormcontent/assets/5005014c-eed8-430e-a59c-0a.jpg" />
+<file href="scormcontent/assets/Module_sous_titre-avec-sou.mp4" />
+<file href="scormcontent/assets/Module_sous_titre-avec-sou.jpg" />
+<file href="scormcontent/assets/ai-captions-1776238601148.vtt" />
+<file href="scormcontent/assets/ub4-42/5005014c-eed8-430e-a59c-0a.jpg" />
+<file href="scormcontent/assets/Transcription%20vide%CC%81.pdf" />
+<file href="scormcontent/assets/l0FPuV/universe%2C-planets%2C-lig.jpg" />
+<file href="scormcontent/assets/_MSOgC/c046ea86-2397-4745-9793-1c.mp3" />
+<file href="scormcontent/assets/25pyFi/Valentina%20verde.jpg" />
+<file href="scormcontent/assets/quote_background.jpg" />
+<file href="scormcontent/assets/Capture%20d%E2%80%99e.jpg" />
+<file href="scormcontent/assets/855fbb54-3b8c-41f6-a46e-0f.mp3" />
+<file href="scormcontent/assets/eb76ed08-4f2d-4b21-9adc-35.mp3" />
+<file href="scormcontent/assets/RrdSiO/Valentina%20verde.jpg" />
+<file href="scormcontent/assets/Wuhj_R/5005014c-eed8-430e-a59c-0a.jpg" />
+<file href="scormcontent/assets/23ab1d6b-5d9d-455b-a04f-e6.mp3" />
+<file href="scormcontent/assets/Capture%20d%E2%80%99e.png" />
+<file href="scormcontent/assets/ZrbpX_/mountains.jpg" />
+<file href="scormcontent/assets/kiEJt7/Capture%20d%E2%80%99e.png" />
+<file href="scormcontent/assets/94qwP6/Capture%20d%E2%80%99e.png" />
+<file href="scormcontent/assets/kCMkO8/Capture%20d%E2%80%99e.jpg" />
+<file href="scormcontent/assets/Espace.jpg" />
+<file href="scormcontent/assets/be4baf35-1b5d-4f8d-ac47-b9.mp3" />
+<file href="scormcontent/assets/283a6f47-735a-4c9a-b81b-b5.mp3" />
+<file href="scormcontent/assets/cd960bd1-3c30-44c1-b796-40.mp3" />
+<file href="scormcontent/assets/69f23cff-e3c5-4b61-a71e-20.mp3" />
+<file href="scormcontent/assets/8716373f-7919-4b1f-9f76-3f.mp3" />
+<file href="scormcontent/assets/5b485726-4b36-4ae4-a43b-3e.mp3" />
+<file href="scormcontent/assets/De%CC%81s.jpg" />
+<file href="scormcontent/assets/Synthe%CC%80se.pdf" />
+
+    </resource>
+  </resources>
+</manifest>
